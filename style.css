@@ -15,6 +15,33 @@ h1{
     font-weight: 600;
 }
 
+header {
+    display: flex;
+    background-color: crimson;
+    width: 100%;
+    justify-content: space-between;
+    padding: 8px 16px;
+}
+
+header a {
+    color: #eaeaea;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    gap: 16px;
+}
+
+header a:hover{
+    color: rgb(212, 212, 212);
+    transition: all .3s ease-in-out;
+    transform: scale(1.035);
+}
+
 .container{
     display: flex;
     justify-content: center;

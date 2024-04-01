@@ -22,7 +22,10 @@
     <title><?= APP_NAME; ?></title>
 </head>
 <body>
-    <a href="logout.php">logout</a>
+    <?php include ("layouts/header.php"); ?>
+    
+    <br />
+
     <h1>DAFTAR MEJA</h1>
 
     <div class="container">
